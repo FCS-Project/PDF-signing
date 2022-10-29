@@ -58,7 +58,7 @@ export default class SignPDF {
       Type: 'Annot',
       Subtype: 'Widget',
       FT: 'Sig',
-      Rect: [0, 0, 0, 0], // Signature rect size
+      Rect: [57, 535, 480, 270], // Signature rect size
       V: signatureDictRef,
       T: PDFString.of('test signature'),
       F: 4,
